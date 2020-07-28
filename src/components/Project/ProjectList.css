@@ -1,0 +1,11 @@
+.ProjectList {
+
+ul {
+ display: flex;
+}
+
+li {
+    border: red solid 2px;
+    list-style: none;
+    }
+}

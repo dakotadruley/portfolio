@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from './Project.jsx';
 import projectData from '../../../data/data.jsx';
+import styles from './ProjectList.css';
 
 const ProjectList = () => {
   const projectItems = projectData.map(project => (
@@ -10,7 +11,7 @@ const ProjectList = () => {
   ));
 
   return (
-    <ul>
+    <ul className={styles.ProjectList}>
       {projectItems}
     </ul>
   );
