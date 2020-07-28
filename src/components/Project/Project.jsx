@@ -1,19 +1,27 @@
 import React from 'react';
-import projectData from '../../../data/data.jsx';
+import PropTypes from 'prop-types';
 import styles from './Project.css';
 
-const Project = () => {
+const Project = ({ name, img, github, site, languages, description }) => (
 
-  return (
-    <section className={styles.Project}>
-      <h1>{projectData.name}</h1>
-      <img src={projectData.img} alt={projectData.name}/>
-      <h4>{projectData.github}</h4>
-      <h4>{projectData.site}</h4>
-      <h3>{projectData.languages}</h3>
-      <p>{projectData.description}</p>
-    </section>
-  );
+  <section className={styles.Project}>
+    <h1>{name}</h1>
+    <img src={img} alt={name}/>
+    <h4>{github}</h4>
+    <h4>{site}</h4>
+    <h3>{languages}</h3>
+    <p>{description}</p>
+  </section>
+
+);
+
+Project.propTypes = {
+  name: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
+  github: PropTypes.string.isRequired,
+  site: PropTypes.string.isRequired,
+  languages: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired
 };
 
 export default Project;
