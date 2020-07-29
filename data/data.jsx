@@ -16,7 +16,7 @@ const projectData = [
     description: 'A virtual repository for storing thread based on color and serial number so that any cross stitcher can have an organized stash.'
   },
   {
-    name: 'Let/\'s Talk About It',
+    name: 'Let\'s Talk About It',
     img: '',
     github: '',
     site: '',
