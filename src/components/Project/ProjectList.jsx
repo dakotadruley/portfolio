@@ -5,15 +5,15 @@ import styles from './ProjectList.css';
 
 const ProjectList = () => {
   const projectItems = projectData.map(project => (
-    <li key={project.id}>
+    <section key={project.id}>
       <Project {...project} />
-    </li>
+    </section>
   ));
 
   return (
-    <ul className={styles.ProjectList}>
+    <main className={styles.ProjectList}>
       {projectItems}
-    </ul>
+    </main>
   );
 };
 

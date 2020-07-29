@@ -1,11 +1,8 @@
-.ProjectList {
-
-ul {
+main {
  display: flex;
+ flex-direction: column;
 }
 
-li {
-    border: red solid 2px;
+section {
     list-style: none;
     }
-}
