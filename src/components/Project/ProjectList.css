@@ -6,4 +6,8 @@ main {
 
 section {
     list-style: none;
+
+    h1 {
+        color: #D26F78;
+    }
     }

@@ -6,9 +6,13 @@ const Home = () => {
   return (
     <section className={styles.Home}>
       <h1>Dakota Mills Druley</h1>
-      <p>~~~~~~~~~~~~~~~~~~</p>
-      <h3>Software Develoepr</h3>
+      <hr></hr>
+      <h3>Full-Stack Software Developer</h3>
+      <h3>About Me</h3>
+      <img src="public/mebwsquare.jpeg" />
+      <p>I'm a full stack developer with passion for creative problem solving and finding innovative ways to increase efficiency. The planning, organization and communication skills I honed in IT project management increase my productivity and ability to write clean and functional code. As a dynamic coder, I excel at both individually and collaboratively contributing. </p>
     </section>
+
   );
 };
 
