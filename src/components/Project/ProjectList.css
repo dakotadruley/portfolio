@@ -10,4 +10,8 @@ section {
     h1 {
         color: #D26F78;
     }
+
+    a {
+        margin: 3px;
+    }
     }

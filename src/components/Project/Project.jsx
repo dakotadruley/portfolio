@@ -6,8 +6,9 @@ const Project = ({ name, img, github, site, languages, description }) => (
   <>
     <h1>{name}</h1>
     <img src={img} alt={name}/>
-    <h4>{github}</h4>
-    <h4>{site}</h4>
+    <br></br>
+    <a href={github}>github</a>||
+    <a href={site}>site</a>
     <h3>{languages}</h3>
     <p>{description}</p>
   </>
