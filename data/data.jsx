@@ -1,7 +1,7 @@
 const projectData = [
   {
     name: 'Alcherithm',
-    img: '',
+    img: 'public/alcherithm.png',
     github: 'https://github.com/Alcherithm',
     site: 'alcherithm.netlify.app/',
     languages: '',
@@ -9,7 +9,7 @@ const projectData = [
   },
   {
     name: 'Sew Organized',
-    img: '',
+    img: 'public/seworganized.jpeg',
     github: 'https://github.com/Sew-Organized',
     site: 'https://sew-organized.herokuapp.com/splash',
     languages: '',
@@ -17,7 +17,7 @@ const projectData = [
   },
   {
     name: 'Let\'s Talk About It',
-    img: '',
+    img: 'public/talkaboutit.png',
     github: 'https://github.com/mental-health-twitterbot',
     site: 'https://letstalkabout-react.herokuapp.com/',
     languages: '',
@@ -25,7 +25,7 @@ const projectData = [
   },
   {
     name: 'Alchimia',
-    img: '',
+    img: 'public/alchimia.png',
     github: 'https://github.com/Alchimia-by-the-meeps',
     site: 'https://alchimia-by-the-meeps.github.io/alchimia/',
     languages: '',

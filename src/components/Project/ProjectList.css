@@ -1,7 +1,7 @@
 main {
  display: flex;
  flex-direction: column;
- max-width: 400px;
+ max-width: 600px;
 }
 
 section {
@@ -9,6 +9,10 @@ section {
 
     h1 {
         color: #D26F78;
+    }
+
+    img {
+        max-width: 600px;
     }
 
     a {
