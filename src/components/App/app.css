@@ -1,6 +1,10 @@
 body {
     display: flex;
     justify-content: center;
-
+    background-image: url('../../../public/color.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
     font-family: 'Roboto Mono';
 }
