@@ -5,9 +5,9 @@ import ProjectList from '../Project/ProjectList';
 
 export default function App() {
   return (
-    <>
+    <div>
       <Home />
       <ProjectList />
-    </>
+    </div>
   );
 }

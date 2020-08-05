@@ -8,3 +8,8 @@ body {
     
     font-family: 'Roboto Mono';
 }
+
+div {
+    background-color: white;
+    padding: 30px;
+}
